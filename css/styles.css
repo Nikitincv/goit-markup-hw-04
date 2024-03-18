@@ -105,7 +105,9 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 padding: 24px 0;
 display: block;
-transition: color cubic-bezier(0.4, 0, 0.2, 1);
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current {
@@ -135,7 +137,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-transition: color cubic-bezier(0.4, 0, 0.2, 1);
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
