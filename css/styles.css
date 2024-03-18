@@ -436,7 +436,8 @@ transform: translateY(100%);
 transition: transform 250ms;
 
 }
-.our-portfolio:hover .cover-portfolio-text {
+.our-portfolio:hover, 
+.cover-portfolio-text {
     transform: translateY(0);
 }
 
